@@ -31,7 +31,6 @@ public class Transfusion extends BloodAbility implements AddonAbility, ComboAbil
 
     public Transfusion(Player player) {
         super(player);
-        player.sendMessage("Transfusion triggered");
         if (this.bPlayer.canBendIgnoreBindsCooldowns(this) && !this.bPlayer.isOnCooldown(this)) {
             this.setFields();
             this.entity = GeneralMethods.getTargetedEntity(player, this.selectRange);
