@@ -1,5 +1,5 @@
 # Lumosbends
-This is my updated Version of the Lumosbends Move Pack for the Minecraft ProjectKorra plugin.
+This is my updated Version of the Lumosbends Move Pack by xLumos for the Minecraft ProjectKorra plugin.
 
 >[!WARNING]
 >You find the Config under `ExtraAbilities.xLumos.<AbilityName>.<Setting>`
