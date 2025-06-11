@@ -127,7 +127,7 @@ public class Transfusion extends BloodAbility implements AddonAbility, ComboAbil
     }
 
     public String getInstructions() {
-        return "BloodLet (Left Click) > HealingWaters (Left click)";
+        return "BloodLet (Left-click a block near your target) -> HealingWaters (Left-click a block near your target)";
     }
 
     public String getDescription() {

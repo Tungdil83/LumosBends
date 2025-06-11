@@ -6,10 +6,10 @@
 
     <groupId>com.xLumos</groupId>
     <artifactId>LumosBends</artifactId>
-    <version>1.1-BETA</version>
+    <version>1.2</version>
     <packaging>jar</packaging>
 
-    <name>LumosBendsmod</name>
+    <name>LumosBends</name>
 
     <properties>
         <java.version>21</java.version>
