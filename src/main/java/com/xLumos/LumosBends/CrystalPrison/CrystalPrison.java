@@ -109,7 +109,7 @@ public class CrystalPrison extends EarthAbility implements AddonAbility {
         ProjectKorra.plugin.getServer().getPluginManager().registerEvents(new CrystalPrisonListener(), ProjectKorra.plugin);
         ProjectKorra.log.info(this.getName() + " " + this.getVersion() + " by " + this.getAuthor() + " loaded baked potatoes! ");
         ConfigManager.getConfig().addDefault("ExtraAbilities.xLumos.CrystalPrison.Cooldown", 14000L);
-        ConfigManager.getConfig().addDefault("ExtraAbilities.xLumos.CrystalPrison.Duration", 6000L);
+        ConfigManager.getConfig().addDefault("ExtraAbilities.xLumos.CrystalPrison.Duration", 3000L);
         ConfigManager.getConfig().addDefault("ExtraAbilities.xLumos.CrystalPrison.selectRange", (double)10.0F);
         ConfigManager.defaultConfig.save();
     }
